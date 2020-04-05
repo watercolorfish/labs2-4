@@ -92,6 +92,6 @@ class CharactersListFragment : Fragment(), CharactersAdapter.OnItemClickListener
     }
 
     override fun onItemClick(character: Character) {
-        (activity as? CharactersActivity)?.onCardClick(character)
+        (activity as? MainActivity)?.onCharacterClick(character)
     }
 }

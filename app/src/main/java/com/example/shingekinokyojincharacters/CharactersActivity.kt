@@ -3,6 +3,8 @@ package com.example.shingekinokyojincharacters
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
+/*delete*/
+
 class CharactersActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
