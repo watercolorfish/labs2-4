@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Shingeki no Kyojin Characters</string>
+    <string name="list_fragment_button_text">Load</string>
+    <string name="image_content_description">No character image.</string>
+    <string name="name_label">Name:</string>
+    <string name="role_label">Role:</string>
+    <string name="fail_loading">Failed to load characters.</string>
+</resources>
