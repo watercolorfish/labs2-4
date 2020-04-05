@@ -30,7 +30,7 @@ data class Character (
     /*
     The image url.
      */
-    @SerializedName("imageUrl")
+    @SerializedName("image_url")
     val imageUrl: String?,
     /*
     The character's name.
