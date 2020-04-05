@@ -8,7 +8,7 @@ import androidx.room.Query
 @Dao
 interface CharacterDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    fun addCharacters(cards: List<Character>)
+    fun addCharacters(characters: List<Character>)
 
     @Query("select * from characters")
     fun getAllCharacters(): List<Character>
